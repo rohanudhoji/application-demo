@@ -9,13 +9,13 @@ Quick start
 -----------
 
 Clone this project
-Run in console ./mvnw install, java -jar target/application-0.0.1-SNAPSHOT.jar ${testfile}
-Check eventdb and eventdb.log to verify results are as expected
+Run in console `./mvnw install`, `java -jar target/application-0.0.1-SNAPSHOT.jar ${testfile}`
+Check `eventdb` and `eventdb.log` to verify results are as expected
 
 Testing Instructions
 --------------------
 The program should:
-
+```
 Take the input file path as input argument. Use following example as logfile.txt test file. Example:
 {"id":"scsmbstgra", "state":"STARTED", "type":"APPLICATION_LOG","host":"12345", "timestamp":1491377495212}
 {"id":"scsmbstgrb", "state":"STARTED", "timestamp":1491377495213}
