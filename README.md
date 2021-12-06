@@ -1,4 +1,3 @@
-# application-demo
 
 Spring Boot application that is used to find long running log events.
 
